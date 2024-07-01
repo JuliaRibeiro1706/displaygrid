@@ -118,9 +118,7 @@ header {
     grid-template-rows: 80px 80px 431px 271px;
 }
 
-#main div {
-    border: solid 1px;
-}
+
 
 #main a:hover {
     color: #7fad39;

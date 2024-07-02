@@ -1,7 +1,9 @@
+
 * {
     margin: 0;
     box-sizing: border-box;
     font-family: "Cairo", sans-serif;
+    border: solid 1px;
 }
 
 
@@ -28,14 +30,14 @@ header {
 }
 
 #email1 svg {
-    margin-left: 375px;
+    margin-left: 66vh;
     margin-right: 5px;
 }
 
 #textocabecalho {
 
     height: 40px;
-    width: 31.5%;
+    width: 25%;
 }
 
 #face svg {
@@ -118,7 +120,9 @@ header {
     grid-template-rows: 80px 80px 431px 271px;
 }
 
-
+#main div{
+    border: solid black 1px;
+}
 
 #main a:hover {
     color: #7fad39;
@@ -230,11 +234,11 @@ header {
 
 #busca2 {
     padding: 0px 0px 0px 18px;
-    width: 23%;
+    width: 27%;
 }
 
 #busca2 svg {
-    margin-left: 30px;
+    margin-left: 10%;
 
     vertical-align: middle;
 }
@@ -262,7 +266,7 @@ header {
 #telefone{
     display: flex;
     justify-content: center;
-    width: 50px;
+    width: 8%;
     height: 50px;
     background-color: #f5f5f5;
     border-radius: 50%;
@@ -343,13 +347,14 @@ padding-bottom: 6%;
     justify-content: center;
     width: 70%;
     height: 40px;
-    margin-top: 70%;
+    margin-top: 82%;
     font-size: 18px;
     letter-spacing: 2px;
     font-weight: 900;
     margin-left: 15%;
     background-color: #ffffff;
     border: 0;
+    text-transform: uppercase;
   
     
 }
@@ -368,13 +373,14 @@ padding-bottom: 6%;
     justify-content: center;
     width: 70%;
     height: 40px;
-    margin-top: 80%;
+    margin-top: 95%;
     font-size: 18px;
     letter-spacing: 2px;
     font-weight: 900;
     margin-left: 15%;
     background-color: #ffffff;
     border: 0;
+    text-transform: uppercase;
   
     
 }
@@ -391,13 +397,14 @@ padding-bottom: 6%;
     justify-content: center;
     width: 70%;
     height: 40px;
-    margin-top: 80%;
+    margin-top: 96%;
     font-size: 18px;
     letter-spacing: 2px;
     font-weight: 900;
     margin-left: 15%;
     background-color: #ffffff;
     border: 0;
+    text-transform: uppercase;
   
     
 }
@@ -413,13 +420,14 @@ padding-bottom: 6%;
     justify-content: center;
     width: 70%;
     height: 40px;
-    margin-top: 70%;
+    margin-top: 84%;
     font-size: 18px;
     letter-spacing: 2px;
     font-weight: 900;
     margin-left: 15%;
     background-color: #ffffff;
     border: 0;
+    text-transform: uppercase;
   
     
 }
@@ -532,4 +540,60 @@ li {
     width: auto;
     height: 9%;
     border: none;
+}
+#textocabecalho2{
+    grid-row: 5 ;
+    grid-column: 3/5;
+    color: #1c1c1c;
+    font-weight: 700;
+    position: relative;
+    font-size: 36px;
+    text-align: center;
+}
+#tracinhoverde{
+   grid-column: 3/5;
+    left: 0;
+    bottom: -15px;
+    right: 0;
+    height: 4px;
+    width: 80px;
+    background: #7fad39;
+    content: "";
+    margin: 0 auto;
+}
+#nomessesao{
+    grid-column: 3/5;
+    grid-row: 6;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+#produtosfileira{
+    display: grid;
+    grid-template-columns: 1.8fr 1.5fr 1.3fr 1.3fr 1.4fr 1.8fr; ;
+    grid-template-rows: 250px 80px 250px 70px;
+    width: 100%;
+    margin: auto;
+    gap: 15px;
+
+}
+#produto01{
+    background-image: url(feature-1.jpg);
+}
+#produtosfileira>div{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.textoproduto span{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 3%;
+}
+.textoproduto{
+    text-align: center;
+    font-size: 16px;
 }

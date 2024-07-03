@@ -4,6 +4,8 @@
     font-family: "Cairo", sans-serif;
 }
 
+
+
 header {
     display: flex;
     align-items: center;
@@ -26,14 +28,14 @@ header {
 }
 
 #email1 svg {
-    margin-left: 215px;
+    margin-left: 375px;
     margin-right: 5px;
 }
 
 #textocabecalho {
 
     height: 40px;
-    width: 38%;
+    width: 31.5%;
 }
 
 #face svg {
@@ -112,7 +114,7 @@ header {
 
 #main {
     display: grid;
-    grid-template-columns: 1fr 1.5fr 1.3fr 1.3fr 1.4fr 1fr;
+    grid-template-columns: 1.8fr 1.5fr 1.3fr 1.3fr 1.4fr 1.8fr;
     grid-template-rows: 80px 80px 431px 271px;
 }
 
@@ -162,11 +164,14 @@ header {
 
 #nav-drop {
     position: relative;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 #nav-drop:hover #drop-menu {
     opacity: 1;
     z-index: 99;
+    
 
 }
 
@@ -175,6 +180,10 @@ header {
     text-decoration: none;
     color: black;
 
+}
+.btnnav{
+    font-size: 14px;
+    font-weight: 700;
 }
 
 #menu {
@@ -195,7 +204,7 @@ header {
     grid-row: 2;
     margin-top: 15px;
     margin-bottom: 15px;
-    width: 70%;
+    width: 100%;
 }
 
 #busca1 {
@@ -207,18 +216,29 @@ header {
 
 }
 
+
 #busca1 svg {
     width: 16px;
     vertical-align: middle;
 }
 
 #imput {
-    width: 38%;
+    width: 42%;
     height: 48px;
+    border: 0;
+    font-size: 16px;
+    opacity: 0.5;
 }
 
 #busca2 {
     padding: 0px 0px 0px 18px;
+    width: 23%;
+}
+
+#busca2 svg {
+    margin-left: 30px;
+
+    vertical-align: middle;
 }
 
 #barra3 {
@@ -234,13 +254,36 @@ header {
 
 #butaosearch {
     height: 100%;
-    width: 13%;
+    width: 12%;
     background-color: #7fad39;
     color: white;
     border: 0;
     font-weight: 700;
+   margin-right: 45px;
+}
+#telefone{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    align-items: center;
+    margin-right: 10px;
+}
+#numero{
+    width: 20%;
+    height: 90%;
 }
 
+#numero div{
+ font-weight: 900;
+ height: 50%;
+}
+#numero span{
+    font-size: 14px;
+
+}
 #banner {
     grid-column: 3/6;
     grid-row: 3;
@@ -248,27 +291,139 @@ header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-left: 68px;
+    margin-bottom: 30px;
+    
 }
+#textoimagem{
+    margin-top: 12%;
+    width: 50%;
+    
+}
+#textverdeimg{
+    color: #7fad39;
+    font-size: 14px;
+    vertical-align: middle;
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: 700;
+    padding-bottom: 3%;
 
+}
+#vegetable{
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 55px;
+  color: #252525;
+}
+#textoimg2{
+    padding-top: 3%;
+    font-size: 16px;
+color: #6f6f6f;
+padding-bottom: 6%;
+}
+#btnimg{
+    display: inline-block;
+    background-color: #7fad39;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 10px 28px 10px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    border: 0;
+}
 #prod1 {
     grid-row: 4;
     grid-column: 2;
     margin-right: 15px;
+    background-image: url(cat-1.jpg);
+    background-position: top center;
 }
+#prod1 button{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 40px;
+    margin-top: 70%;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    margin-left: 15%;
+    background-color: #ffffff;
+    border: 0;
+  
+    
+}
+
 
 #prod2 {
     grid-row: 4;
     grid-column: 3;
+    margin-right: 15px;
+    background-image: url(cat-2.jpg);
+    background-position: top center;
+
+}
+#prod2 button{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 40px;
+    margin-top: 80%;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    margin-left: 15%;
+    background-color: #ffffff;
+    border: 0;
+  
+    
 }
 
 #prod3 {
     grid-row: 4;
     grid-column: 4;
+    margin-right: 15px;
+    background-image: url(cat-3.jpg);
+    background-position: top center;
+}
+#prod3 button{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 40px;
+    margin-top: 80%;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    margin-left: 15%;
+    background-color: #ffffff;
+    border: 0;
+  
+    
 }
 
 #prod4 {
     grid-row: 4;
     grid-column: 5;
+    background-image: url(cat-4.jpg);
+    background-position: top center;
+}
+#prod4 button{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 40px;
+    margin-top: 70%;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    margin-left: 15%;
+    background-color: #ffffff;
+    border: 0;
+  
+    
 }
 
 #iten {
@@ -277,7 +432,6 @@ header {
     grid-row: 1;
     position: relative;
     width: 100%;
-    padding-right: 15px;
     padding-left: 15px;
     align-items: center;
 
@@ -285,11 +439,13 @@ header {
 
 
 #coracao {
-    width: 210px;
-    height: 72px;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     vertical-align: middle;
+    float: right;
+    justify-content: right;
 
 
 }
@@ -325,14 +481,16 @@ svg {
     text-align: center;
     vertical-align: middle;
     position: relative
-    
 }
-#menu label { position: absolute;
-width: 100%;
-height: 50px;
-left: 0;
-top: 0;
+
+#menu label {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: 0;
+    top: 0;
 }
+
 #drop-menu2 {
 
     position: absolute;
@@ -341,7 +499,7 @@ top: 0;
     list-style: none;
     padding: 0;
     width: 100%;
-    height: 431px;
+    height: 845%;
     opacity: 0;
     z-index: -99;
     transition: 0.5s;
@@ -351,7 +509,11 @@ top: 0;
     font-weight: 700;
 
 }
-#check{ opacity: 0;}
+
+#check {
+    opacity: 0;
+}
+
 #menu {
     position: relative;
 }

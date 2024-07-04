@@ -1043,6 +1043,19 @@ background-color: #ffffff;
     fill: white;
 
 }
+#ttw2:hover path{
+    background-color: #7fad39;
+    
+    
+}
+#insta2:hover path{
+    background-color: #7fad39;
+}
+#pint2:hover path{
+    background-color: #7fad39;
+}
+#face1:hover path{
+    background-color: #7fad39;
 #linha{
     grid-column: 2/5;
     grid-row: 4;

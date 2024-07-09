@@ -37,7 +37,7 @@ header {
 #textocabecalho {
 
     height: 40px;
-    width: 29%;
+    width: 25.5%;
     padding-top: 7px;
 }
 
@@ -1041,11 +1041,9 @@ background-color: #ffffff;
 }
 
 
-}
 #ttw2:hover path{
-    background-color: #7fad39;
-    
-    
+    fill: white;
+
 }
 #insta2:hover path{
     fill: white;
@@ -1054,7 +1052,8 @@ background-color: #ffffff;
   fill: white;
 }
 #face1:hover path{
-fill: white;
+    fill: white;
+}
 #linha{
     grid-column: 2/5;
     grid-row: 4;

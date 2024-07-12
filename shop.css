@@ -573,7 +573,14 @@ li {
     line-height: 40px;
 
 }
-
+#uldepartaments a{
+text-decoration: none;
+color: #1c1c1c;
+font-weight: 500;
+}
+#uldepartaments li{
+    list-style: none;
+}
 #departament li {
     color: black;
 }
@@ -631,7 +638,7 @@ li {
 #white {
     display: flex;
     vertical-align: middle;
-    width: 40%;
+    width: 50%;
     grid-column: 1/2;
     grid-row: 4;
 }
@@ -649,7 +656,7 @@ li {
 #red {
     display: flex;
     vertical-align: middle;
-    width: 40%;
+    width: 50%;
     grid-column: 1/2;
     grid-row: 5;
 }
@@ -666,7 +673,7 @@ li {
 #blue {
     display: flex;
     vertical-align: middle;
-    width: 40%;
+    width: 50%;
     grid-column: 1/2;
     grid-row: 6;
 }
@@ -683,7 +690,7 @@ li {
 #gray {
     display: flex;
     vertical-align: middle;
-    width: 40%;
+    width: 50%;
     grid-column: 2/3;
     grid-row: 4;
 }
@@ -701,7 +708,7 @@ li {
 #black {
     display: flex;
     vertical-align: middle;
-    width: 40%;
+    width: 50%;
     grid-column: 2/4;
     grid-row: 5;
 }
@@ -718,20 +725,22 @@ li {
 #green {
     display: flex;
     vertical-align: middle;
-    width: 40%;
+    width: 50%;
     grid-column: 2/3;
     grid-row: 6;
 }
 
 #bolinhagreen {
     width: 14px;
-    height: 14px;
+    height:  14px;
     border-radius: 50%;
     vertical-align: middle;
     margin-top: 15%;
     background-color: #3CC032;
 }
-
+.letra{
+    text-align: center;
+}
 #popularsizes {
     width: 80%;
 }
@@ -874,7 +883,7 @@ li {
     grid-column: 3/6;
     display: grid;
     grid-template-columns: 1.5fr 1.5fr 1.5fr;
-    grid-template-rows: 110px 270px 110px 30px 30px 10px 50px 110px 300px 270px 66px 270px 66px 270px 66px 270px 66px 20px;
+    grid-template-rows: 110px 270px 110px 30px 30px 10px 50px 110px 60px 270px 66px 270px 66px 270px 66px 270px 66px 20px;
 }
 
 #titulosalesoff {
@@ -1259,8 +1268,9 @@ li {
 #svg111:hover {
     background-color: #7fad39;
     fill: white;
-    translate: 360deg;
+
 }
+
 
 #svg222:hover {
     background-color: #7fad39;
@@ -1374,6 +1384,7 @@ li {
 #shortby svg {
     width: 14px;
     vertical-align: middle;
+    margin-right: 16%;
 }
 
 #shortby label {
@@ -1427,7 +1438,7 @@ li {
 #span04{
     font-size: 16px;
     color: #b2b2b2;
-    margin-right:300px;
+    margin-right:200px;
 }
 #iconegrid img{
     width: 25px;
@@ -1444,6 +1455,550 @@ li {
 #segparteshortby svg:hover{
     fill:#7fad39
 }
+#produto1{
+    grid-column: 1/2;
+    grid-row: 10;
+    background-image: url(feature-1.jpg);
+    background-size: cover;
+    padding-left: 10px;
+    margin-left: 10px;
+    background-position: center;
+}
+
+#hovericones3 {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    opacity: 0;
+    z-index: -97;
+    transition: 1s;
+    color: white;
+    padding-left: 10px;
+    margin-top: 100%;
+    gap: 10px;
+  margin-left: 10%;
+    transition: 1s;
+}
+
+
+#svgcoracao {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgretweet {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgshopp {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgcoracao svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgretweet svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgshopp svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgcoracao:hover {
+    background-color: #7fad39;
+    fill: white;
+
+}
+
+
+#svgretweet:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+
+#svgshopp:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+#produto1:hover #hovericones3 {
+    opacity: 1;
+    z-index: 99;
+
+
+}
+#legendaprd1{
+    grid-column: 1/2;
+    grid-row: 11;
+    text-align: center;
+
+}
+#precoprd01{
+    font-weight: 900;
+    font-size: 18px;
+}
+#produto2{
+    grid-column: 2/3;
+    grid-row: 10;
+    background-image: url(feature-1.jpg);
+    background-size: cover;
+    padding-left: 10px;
+    margin-left: 10px;
+    background-position: center;
+}
+#hovericones4 {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    opacity: 0;
+    z-index: -97;
+    transition: 1s;
+    color: white;
+    padding-left: 10px;
+    margin-top: 100%;
+    gap: 10px;
+  margin-left: 10%;
+    transition: 1s;
+}
+
+
+#svgcoracao2 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgretweet2 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgshopp2 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgcoracao2 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgretweet2 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgshopp2 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgcoracao2:hover {
+    background-color: #7fad39;
+    fill: white;
+
+}
+
+
+#svgretweet2:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+
+#svgshopp2:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+#produto2:hover #hovericones4 {
+    opacity: 1;
+    z-index: 99;
+
+
+}
+#legendaprd2{
+    grid-column: 2/3;
+    grid-row: 11;
+    text-align: center;
+
+}
+#precoprd02{
+    font-weight: 900;
+    font-size: 18px;
+}
+#produto3{
+    grid-column: 3/4;
+    grid-row: 10;
+    background-image: url(feature-1.jpg);
+    background-size: cover;
+    padding-left: 10px;
+    margin-left: 10px;
+    background-position: center;
+}
+#hovericones5 {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    opacity: 0;
+    z-index: -97;
+    transition: 1s;
+    color: white;
+    padding-left: 10px;
+    margin-top: 100%;
+    gap: 10px;
+  margin-left: 10%;
+    transition: 1s;
+}
+
+
+#svgcoracao3 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgretweet3 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgshopp3 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgcoracao3 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgretweet3 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgshopp3 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgcoracao3:hover {
+    background-color: #7fad39;
+    fill: white;
+
+}
+
+
+#svgretweet3:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+
+#svgshopp3:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+#produto3:hover #hovericones5 {
+    opacity: 1;
+    z-index: 99;
+
+
+}
+#legendaprd3{
+    grid-column: 3/4;
+    grid-row: 11;
+    text-align: center;
+
+}
+#precoprd03{
+    font-weight: 900;
+    font-size: 18px;
+}
+#produto4{
+    grid-column: 1/2;
+    grid-row: 12;
+    background-image: url(feature-1.jpg);
+    background-size: cover;
+    padding-left: 10px;
+    margin-left: 10px;
+    background-position: center;
+}
+#hovericones6 {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    opacity: 0;
+    z-index: -97;
+    transition: 1s;
+    color: white;
+    padding-left: 10px;
+    margin-top: 100%;
+    gap: 10px;
+  margin-left: 10%;
+    transition: 1s;
+}
+
+
+#svgcoracao4 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgretweet4 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgshopp4 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgcoracao4 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgretweet4 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgshopp4 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgcoracao4:hover {
+    background-color: #7fad39;
+    fill: white;
+
+}
+
+
+#svgretweet4:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+
+#svgshopp4:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+#produto4:hover #hovericones6 {
+    opacity: 1;
+    z-index: 99;
+
+
+}
+#legendaprd4{
+    grid-column: 1/2;
+    grid-row: 13;
+    text-align: center;
+
+}
+#precoprd04{
+    font-weight: 900;
+    font-size: 18px;
+}
+#produto5{
+    grid-column: 2/3;
+    grid-row: 12;
+    background-image: url(feature-1.jpg);
+    background-size: cover;
+    padding-left: 10px;
+    margin-left: 10px;
+    background-position: center;
+}
+#hovericones7 {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    opacity: 0;
+    z-index: -97;
+    transition: 1s;
+    color: white;
+    padding-left: 10px;
+    margin-top: 100%;
+    gap: 10px;
+  margin-left: 10%;
+    transition: 1s;
+}
+
+
+#svgcoracao5 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgretweet5 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgshopp5 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgcoracao5 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgretweet5 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgshopp5 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgcoracao5:hover {
+    background-color: #7fad39;
+    fill: white;
+
+}
+
+
+#svgretweet5:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+
+#svgshopp5:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+#produto5:hover #hovericones6 {
+    opacity: 1;
+    z-index: 99;
+
+
+}
+#legendaprd5{
+    grid-column: 2/3;
+    grid-row: 13;
+    text-align: center;
+
+}
+#precoprd05{
+    font-weight: 900;
+    font-size: 18px;
+}
+
+
+
 
 
 

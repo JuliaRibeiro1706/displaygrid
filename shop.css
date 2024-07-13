@@ -470,7 +470,7 @@ li {
 #gridshop {
     display: grid;
     grid-template-columns: 1.8fr 1.5fr 1.3fr 1.3fr 1.4fr 1.8fr;
-    grid-template-rows: 200px 1000px 431px 271px 150px 5px 50px;
+    grid-template-rows: 200px 1000px 431px 271px 150px 5px 50px 500px;
 }
 
 #bannershop {
@@ -883,7 +883,7 @@ font-weight: 500;
     grid-column: 3/6;
     display: grid;
     grid-template-columns: 1.5fr 1.5fr 1.5fr;
-    grid-template-rows: 110px 270px 110px 30px 30px 10px 50px 110px 60px 270px 66px 270px 66px 270px 66px 270px 66px 20px;
+    grid-template-rows: 110px 270px 110px 30px 30px 10px 50px 110px 60px 270px 66px 270px 66px 270px 66px 270px 66px 270px 66px 20px;
 }
 
 #titulosalesoff {
@@ -1475,9 +1475,9 @@ font-weight: 500;
     transition: 1s;
     color: white;
     padding-left: 10px;
-    margin-top: 100%;
+    margin-top: 80%;
     gap: 10px;
-  margin-left: 10%;
+  margin-left: 15%;
     transition: 1s;
 }
 
@@ -1567,7 +1567,7 @@ font-weight: 500;
 #produto2{
     grid-column: 2/3;
     grid-row: 10;
-    background-image: url(feature-1.jpg);
+    background-image: url(feature-2.jpg);
     background-size: cover;
     padding-left: 10px;
     margin-left: 10px;
@@ -1583,9 +1583,9 @@ font-weight: 500;
     transition: 1s;
     color: white;
     padding-left: 10px;
-    margin-top: 100%;
+    margin-top: 80%;
     gap: 10px;
-  margin-left: 10%;
+  margin-left: 15%;
     transition: 1s;
 }
 
@@ -1675,7 +1675,7 @@ font-weight: 500;
 #produto3{
     grid-column: 3/4;
     grid-row: 10;
-    background-image: url(feature-1.jpg);
+    background-image: url(feature-3.jpg);
     background-size: cover;
     padding-left: 10px;
     margin-left: 10px;
@@ -1691,9 +1691,9 @@ font-weight: 500;
     transition: 1s;
     color: white;
     padding-left: 10px;
-    margin-top: 100%;
+    margin-top: 80%;
     gap: 10px;
-  margin-left: 10%;
+  margin-left: 15%;
     transition: 1s;
 }
 
@@ -1783,7 +1783,7 @@ font-weight: 500;
 #produto4{
     grid-column: 1/2;
     grid-row: 12;
-    background-image: url(feature-1.jpg);
+    background-image: url(feature-4.jpg);
     background-size: cover;
     padding-left: 10px;
     margin-left: 10px;
@@ -1799,9 +1799,9 @@ font-weight: 500;
     transition: 1s;
     color: white;
     padding-left: 10px;
-    margin-top: 100%;
+    margin-top: 80%;
     gap: 10px;
-  margin-left: 10%;
+  margin-left: 15%;
     transition: 1s;
 }
 
@@ -1891,7 +1891,7 @@ font-weight: 500;
 #produto5{
     grid-column: 2/3;
     grid-row: 12;
-    background-image: url(feature-1.jpg);
+    background-image: url(feature-5.jpg);
     background-size: cover;
     padding-left: 10px;
     margin-left: 10px;
@@ -1907,9 +1907,9 @@ font-weight: 500;
     transition: 1s;
     color: white;
     padding-left: 10px;
-    margin-top: 100%;
+    margin-top: 80%;
     gap: 10px;
-  margin-left: 10%;
+  margin-left: 15%;
     transition: 1s;
 }
 
@@ -1980,7 +1980,7 @@ font-weight: 500;
     fill: white;
     translate: 360deg;
 }
-#produto5:hover #hovericones6 {
+#produto5:hover #hovericones7 {
     opacity: 1;
     z-index: 99;
 
@@ -1996,7 +1996,763 @@ font-weight: 500;
     font-weight: 900;
     font-size: 18px;
 }
+#produto6{
+    grid-column: 3/4;
+    grid-row: 12;
+    background-image: url(feature-6.jpg);
+    background-size: cover;
+    padding-left: 10px;
+    margin-left: 10px;
+    background-position: center;
+}
+#hovericones8 {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    opacity: 0;
+    z-index: -97;
+    transition: 1s;
+    color: white;
+    padding-left: 10px;
+    margin-top: 80%;
+    gap: 10px;
+  margin-left: 15%;
+    transition: 1s;
+}
 
+
+#svgcoracao6 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgretweet6 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgshopp6 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgcoracao6 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgretweet6 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgshopp6 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgcoracao6:hover {
+    background-color: #7fad39;
+    fill: white;
+
+}
+
+
+#svgretweet6:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+
+#svgshopp6:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+#produto6:hover #hovericones8 {
+    opacity: 1;
+    z-index: 99;
+
+
+}
+#legendaprd6{
+    grid-column: 3/4;
+    grid-row: 13;
+    text-align: center;
+
+}
+#precoprd06{
+    font-weight: 900;
+    font-size: 18px;
+}
+#produto7{
+    grid-column: 1/2;
+    grid-row: 14;
+    background-image: url(feature-7.jpg);
+    background-size: cover;
+    padding-left: 10px;
+    margin-left: 10px;
+    background-position: center;
+}
+#hovericones9 {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    opacity: 0;
+    z-index: -97;
+    transition: 1s;
+    color: white;
+    padding-left: 10px;
+    margin-top: 80%;
+    gap: 10px;
+  margin-left: 15%;
+    transition: 1s;
+}
+
+
+#svgcoracao7 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgretweet7 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgshopp7 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgcoracao7 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgretweet7 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgshopp7 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgcoracao7:hover {
+    background-color: #7fad39;
+    fill: white;
+
+}
+
+
+#svgretweet7:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+
+#svgshopp7:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+#produto7:hover #hovericones9 {
+    opacity: 1;
+    z-index: 99;
+
+
+}
+#legendaprd7{
+    grid-column: 1/2;
+    grid-row: 15;
+    text-align: center;
+
+}
+#precoprd07{
+    font-weight: 900;
+    font-size: 18px;
+}
+#produto8{
+    grid-column: 2/3;
+    grid-row: 14;
+    background-image: url(feature-8.jpg);
+    background-size: cover;
+    padding-left: 10px;
+    margin-left: 10px;
+    background-position: center;
+}
+#hovericones10 {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    opacity: 0;
+    z-index: -97;
+    transition: 1s;
+    color: white;
+    padding-left: 10px;
+    margin-top: 80%;
+    gap: 10px;
+  margin-left: 15%;
+    transition: 1s;
+}
+
+
+#svgcoracao8 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgretweet8 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgshopp8 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgcoracao8 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgretweet8 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgshopp8 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgcoracao8:hover {
+    background-color: #7fad39;
+    fill: white;
+
+}
+
+
+#svgretweet8:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+
+#svgshopp8:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+#produto8:hover #hovericones10 {
+    opacity: 1;
+    z-index: 99;
+
+
+}
+#legendaprd8{
+    grid-column: 2/3;
+    grid-row: 15;
+    text-align: center;
+
+}
+#precoprd08{
+    font-weight: 900;
+    font-size: 18px;
+}
+#produto9{
+    grid-column: 3/4;
+    grid-row: 14;
+    background-image: url(feature-3.jpg);
+    background-size: cover;
+    padding-left: 10px;
+    margin-left: 10px;
+    background-position: center;
+}
+#hovericones11 {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    opacity: 0;
+    z-index: -97;
+    transition: 1s;
+    color: white;
+    padding-left: 10px;
+    margin-top: 80%;
+    gap: 10px;
+  margin-left: 15%;
+    transition: 1s;
+}
+
+
+#svgcoracao9 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgretweet9 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgshopp9 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgcoracao9 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgretweet9 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgshopp9 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgcoracao9:hover {
+    background-color: #7fad39;
+    fill: white;
+
+}
+
+
+#svgretweet9:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+
+#svgshopp9:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+#produto9:hover #hovericones11 {
+    opacity: 1;
+    z-index: 99;
+
+
+}
+#legendaprd9{
+    grid-column: 3/4;
+    grid-row: 15;
+    text-align: center;
+
+}
+#precoprd09{
+    font-weight: 900;
+    font-size: 18px;
+}
+#produto10{
+    grid-column: 1/2;
+    grid-row: 16;
+    background-image: url(feature-5.jpg);
+    background-size: cover;
+    padding-left: 10px;
+    margin-left: 10px;
+    background-position: center;
+}
+#hovericones12 {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    opacity: 0;
+    z-index: -97;
+    transition: 1s;
+    color: white;
+    padding-left: 10px;
+    margin-top: 80%;
+    gap: 10px;
+  margin-left: 15%;
+    transition: 1s;
+}
+
+
+#svgcoracao10 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgretweet10 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgshopp10 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgcoracao10 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgretweet10 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgshopp10 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgcoracao10:hover {
+    background-color: #7fad39;
+    fill: white;
+
+}
+
+
+#svgretweet10:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+
+#svgshopp10:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+#produto10:hover #hovericones12 {
+    opacity: 1;
+    z-index: 99;
+
+
+}
+#legendaprd10{
+    grid-column: 1/2;
+    grid-row: 17;
+    text-align: center;
+
+}
+#precoprd010{
+    font-weight: 900;
+    font-size: 18px;
+}
+#produto11{
+    grid-column: 2/3;
+    grid-row: 16;
+    background-image: url(feature-3.jpg);
+    background-size: cover;
+    padding-left: 10px;
+    margin-left: 10px;
+    background-position: center;
+}
+#hovericones13 {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    opacity: 0;
+    z-index: -97;
+    transition: 1s;
+    color: white;
+    padding-left: 10px;
+    margin-top: 80%;
+    gap: 10px;
+  margin-left: 15%;
+    transition: 1s;
+}
+
+
+#svgcoracao11 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgretweet11 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgshopp11 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgcoracao11 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgretweet11 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgshopp11 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgcoracao11:hover {
+    background-color: #7fad39;
+    fill: white;
+
+}
+
+
+#svgretweet11:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+
+#svgshopp11:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+#produto11:hover #hovericones13 {
+    opacity: 1;
+    z-index: 99;
+
+
+}
+#legendaprd11{
+    grid-column: 2/3;
+    grid-row: 17;
+    text-align: center;
+
+}
+#precoprd011{
+    font-weight: 900;
+    font-size: 18px;
+}
+#produto12{
+    grid-column: 3/4;
+    grid-row: 16;
+    background-image: url(feature-2.jpg);
+    background-size: cover;
+    padding-left: 10px;
+    margin-left: 10px;
+    background-position: center;
+}
+#hovericones14 {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    opacity: 0;
+    z-index: -97;
+    transition: 1s;
+    color: white;
+    padding-left: 10px;
+    margin-top: 80%;
+    gap: 10px;
+  margin-left: 15%;
+    transition: 1s;
+}
+
+
+#svgcoracao12 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgretweet12 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgshopp12 {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    display: block;
+    border-radius: 50%;
+}
+
+#svgcoracao12 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgretweet12 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgshopp12 svg {
+    width: 50%;
+    vertical-align: middle;
+}
+
+#svgcoracao12:hover {
+    background-color: #7fad39;
+    fill: white;
+
+}
+
+
+#svgretweet12:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+
+#svgshopp12:hover {
+    background-color: #7fad39;
+    fill: white;
+    translate: 360deg;
+}
+#produto12:hover #hovericones14 {
+    opacity: 1;
+    z-index: 99;
+
+
+}
+#legendaprd12{
+    grid-column: 3/4;
+    grid-row: 17;
+    text-align: center;
+
+}
+#precoprd012
+{
+    font-weight: 900;
+    font-size: 18px;
+}
 
 
 
